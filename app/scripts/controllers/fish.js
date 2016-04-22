@@ -8,7 +8,7 @@
  * Controller of the fishApp
  */
 angular.module('fishApp')
-  .controller('AboutCtrl', function () {
+  .controller('FishCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

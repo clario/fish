@@ -25,9 +25,9 @@ angular
         controllerAs: 'main'
       })
       .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+        templateUrl: 'views/fish.html',
+        controller: 'FishCtrl',
+        controllerAs: 'fish'
       })
       .otherwise({
         redirectTo: '/'
