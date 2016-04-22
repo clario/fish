@@ -24,7 +24,7 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
+      .when('/fish', {
         templateUrl: 'views/fish.html',
         controller: 'FishCtrl',
         controllerAs: 'fish'
